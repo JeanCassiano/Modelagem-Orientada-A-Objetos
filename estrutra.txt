@@ -1,0 +1,76 @@
+.
+├── background-menu.jpg
+├── background-menu.jpg.import
+├── character
+│   ├── assets
+│   │   ├── Knight.png
+│   │   ├── Knight.png.import
+│   │   ├── Orc.png
+│   │   ├── Orc.png.import
+│   │   ├── Orc rider.png
+│   │   ├── Orc rider.png.import
+│   │   ├── player.png
+│   │   ├── player.png.import
+│   │   ├── Skeleton.png
+│   │   ├── Skeleton.png.import
+│   │   ├── slime.png
+│   │   └── slime.png.import
+│   ├── control
+│   │   ├── character.gd
+│   │   ├── enemy.gd
+│   │   ├── health_bar.gd
+│   │   ├── mana_bar.gd
+│   │   ├── orc.gd
+│   │   └── score.gd
+│   └── model
+│       ├── character.tscn
+│       ├── enemy.tscn
+│       ├── health_bar.tscn
+│       ├── mana_bar.tscn
+│       ├── orc_rider.tscn
+│       ├── orc.tscn
+│       └── skeleton.tscn
+├── estrutra.txt
+├── export_presets.cfg
+├── icon.svg
+├── icon.svg.import
+├── levels
+│   ├── control
+│   │   ├── main_menu.gd
+│   │   ├── pause_menu.gd
+│   │   └── test_level.gd
+│   └── view
+│       ├── main_menu.tscn
+│       ├── pause_menu.gdshader
+│       ├── pause_menu.tscn
+│       └── test_level.tscn
+├── project.godot
+├── savegame.dat
+├── skeleton.gd
+└── terrain
+    ├── assets
+    │   ├── base_terrain
+    │   │   ├── decor_16x16.png
+    │   │   ├── decor_16x16.png.import
+    │   │   ├── grass.png
+    │   │   ├── grass.png.import
+    │   │   ├── plains.png
+    │   │   └── plains.png.import
+    │   ├── fences.png
+    │   ├── fences.png.import
+    │   ├── interior
+    │   │   ├── walls.png
+    │   │   ├── walls.png.import
+    │   │   ├── wooden_door_b.png
+    │   │   ├── wooden_door_b.png.import
+    │   │   ├── wooden_door.png
+    │   │   ├── wooden_door.png.import
+    │   │   ├── wooden.png
+    │   │   └── wooden.png.import
+    │   ├── objects.png
+    │   └── objects.png.import
+    └── view
+        ├── objects_terrain.tscn
+        └── terrain.tscn
+
+12 directories, 61 files

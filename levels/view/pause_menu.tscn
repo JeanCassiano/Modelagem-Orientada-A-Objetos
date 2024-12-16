@@ -1,0 +1,64 @@
+[gd_scene load_steps=4 format=3 uid="uid://iywiyyvhkdua"]
+
+[ext_resource type="Script" path="res://levels/view/pause_menu.gd" id="1_yxry3"]
+[ext_resource type="Shader" path="res://levels/view/pause_menu.gdshader" id="2_j28ja"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_vrr5k"]
+shader = ExtResource("2_j28ja")
+shader_parameter/amount = 0.64
+
+[node name="PauseMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -45.0
+offset_top = -42.0
+offset_right = -45.0
+offset_bottom = -42.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yxry3")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_vrr5k")
+layout_mode = 0
+offset_left = -328.0
+offset_top = -174.0
+offset_right = 437.0
+offset_bottom = 261.0
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Resume" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Voltar"
+
+[node name="Save" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Salvar jogo
+"
+
+[node name="Load" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Carregar jogo"
+
+[node name="Exit" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Sair do jogo
+"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Save" to="." method="_on_saves_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Load" to="." method="_on_load_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Exit" to="." method="_on_exit_pressed"]
