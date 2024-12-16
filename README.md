@@ -15,13 +15,13 @@ O objetivo deste projeto é desenvolver um jogo de RPG com visão top-down, util
 
 ## Funcionalidades
 
-- Escolha de classes de personagens
 - Uso de habilidades especiais
-- Combate por turnos
-- Gerenciamento de itens e inventário
-- Missões e eventos especiais para jogadores experientes
 - Sistema de tutoriais para jogadores iniciantes
+- Save and Load
+- Animações
+- Menus Interativos
 
+  
 ## Tecnologias Utilizadas
 
 - Godot Engine
@@ -29,7 +29,11 @@ O objetivo deste projeto é desenvolver um jogo de RPG com visão top-down, util
 
 ## Vídeo Demonstrativo
 
-Para ver o jogo em ação, assista ao vídeo demonstrativo disponível no [Google Drive](https://drive.google.com/file/d/1YZ9AAwAuNxUR-DPZnwtWPlt1uKU-qiLu/view?usp=sharing).
+Assista ao [vídeo demonstrativo no Google Drive]((https://drive.google.com/file/d/1YZ9AAwAuNxUR-DPZnwtWPlt1uKU-qiLu/view?usp=sharing)) para ver o jogo em ação. O vídeo mostra algumas das funcionalidades principais do jogo, incluindo:
+- **Uso de ataques**: Demonstração de como os ataques são realizados e a verificação de mana necessária para a execução de determinados ataques poderosos.
+- **Sistema de Save and Load**: Demonstração de como os jogadores podem salvar seu progresso e carregar um jogo salvo, permitindo retomar exatamente de onde pararam.
+- **Reinício automatico de fase**: Ao morrer, a fase é reiniciada, bem como score do jogador.
+
 
 ## Instalação e Execução
 
