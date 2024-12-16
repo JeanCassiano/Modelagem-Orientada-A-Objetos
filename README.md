@@ -43,9 +43,6 @@ Para executar o jogo, clone o repositório e abra o projeto na Godot Engine. A d
 
 Contribuições são bem-vindas! Para contribuir, por favor abra um pull request com suas sugestões de melhorias ou correções de bugs.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
 
 ## Autores
 
