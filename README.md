@@ -29,7 +29,7 @@ O objetivo deste projeto é desenvolver um jogo de RPG com visão top-down, util
 
 ## Vídeo Demonstrativo
 
-Para ver o jogo em ação, assista ao vídeo demonstrativo disponível no [Google Drive]([link-do-seu-video](https://drive.google.com/file/d/1YZ9AAwAuNxUR-DPZnwtWPlt1uKU-qiLu/view?usp=sharing)).
+Para ver o jogo em ação, assista ao vídeo demonstrativo disponível no [Google Drive](https://drive.google.com/file/d/1YZ9AAwAuNxUR-DPZnwtWPlt1uKU-qiLu/view?usp=sharing).
 
 ## Instalação e Execução
 
