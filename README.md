@@ -29,7 +29,7 @@ O objetivo deste projeto é desenvolver um jogo de RPG com visão top-down, util
 
 ## Vídeo Demonstrativo
 
-Assista ao [vídeo demonstrativo no Google Drive]((https://drive.google.com/file/d/1YZ9AAwAuNxUR-DPZnwtWPlt1uKU-qiLu/view?usp=sharing)) para ver o jogo em ação. O vídeo mostra algumas das funcionalidades principais do jogo, incluindo:
+Assista ao [vídeo demonstrativo no Google Drive](https://drive.google.com/file/d/1YZ9AAwAuNxUR-DPZnwtWPlt1uKU-qiLu/view?usp=sharing) para ver o jogo em ação. O vídeo mostra algumas das funcionalidades principais do jogo, incluindo:
 - **Uso de ataques**: Demonstração de como os ataques são realizados e a verificação de mana necessária para a execução de determinados ataques poderosos.
 - **Sistema de Save and Load**: Demonstração de como os jogadores podem salvar seu progresso e carregar um jogo salvo, permitindo retomar exatamente de onde pararam.
 - **Reinício automatico de fase**: Ao morrer, a fase é reiniciada, bem como score do jogador.
